@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 1136px;
+    background-color: aqua;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding-left: 08%;
+}
+.imgLogo{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+nav{
+    width: 70%;
+}
+nav,ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}nav,ul,li{
+    list-style: none;
+    padding: 0 10px;
+}
+nav,li a{
+    text-decoration: none;
+}

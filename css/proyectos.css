@@ -1,0 +1,73 @@
+.proyectos{
+    display: grid;
+}
+.proyectos_titulo{
+    text-align: center;
+    padding: 15px 0;
+    color: red;
+}
+.proyectos_contenedor{
+    display: grid;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.proyecto_contenedor{
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.proyecto_1{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(61, 42, 165);
+}
+
+.proyecto_1-informacion{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    padding: 10px 25px;
+    background-color: green;
+}
+.proyecto_1-imagen{
+ width: 50%;
+ height: 100%;
+}
+.proyecto_1_h2{
+    text-align: center;
+    padding: 15px 0;
+}
+.proyecto_2-a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    width: 110px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    align-items: center;
+}
+.proyecto_1-hInformacion-botones{
+ display: flex;
+    justify-content: center;
+ align-items: center;
+}
+.proyecto-btn{
+    width: 110px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    height: 30px;
+}

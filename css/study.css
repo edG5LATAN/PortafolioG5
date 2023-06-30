@@ -1,0 +1,46 @@
+.skills_contendor3{
+    height: 581px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.skill_contenedor-informacionAcademica{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.study{
+   padding-bottom: 35px;
+}
+.skill_informacionAcademica-icon{
+    width: 24%;
+    height: 347px;
+    background-position:50% 50% ;
+    background-repeat: no-repeat;
+    background-size:90% 75%;
+    background-color: green;
+    border: 1px solid wheat;
+    display: flex;
+    align-items: flex-end;
+    	
+}
+.oracle{
+    background-image: url(../imagenes/study/oracle.jpg);
+}
+.infop{
+    background-image: url(../imagenes/study/Infop.jpg);
+
+}
+.alura{
+    background-image: url(../imagenes/study/alura1.jpg);
+
+}
+.universidadPedagogica{
+    background-image: url(../imagenes/study/universidadPedagogica.png);
+
+}

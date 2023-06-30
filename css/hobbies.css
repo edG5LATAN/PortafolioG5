@@ -1,0 +1,32 @@
+.skills_contendor2{
+    width: 100%;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hobies{
+    background-size: 40px;
+    background-position: 5px 95px;
+
+}
+.aprender{
+  background-image: url(../imagenes/hobbies/aprender.png);
+}
+.baloncesto{
+    background-image: url(../imagenes/hobbies/baloncesto.jpg);
+
+}
+.videojuegos{
+    background-image: url(../imagenes/hobbies/videojuegos.jpg);
+
+}
+.comida{
+    background-image: url(../imagenes/hobbies/comida.png);
+
+}
+.viajar{
+    background-image: url(../imagenes/hobbies/viajar.jpg);
+
+}

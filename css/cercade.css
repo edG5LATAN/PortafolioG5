@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital@1&display=swap');
+.acercade{
+    height: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 242, 253, 1);
+}
+.acercade_contenedor{
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15px;
+
+}
+.acercade_firma{
+    font-family: 'Great Vibes', cursive;
+}

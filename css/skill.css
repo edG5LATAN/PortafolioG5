@@ -1,0 +1,58 @@
+.skills {
+  height: 1245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills_contendor1 {
+  height: 244px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skills_contenedor_iconos {
+  height: 174px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills_contenedor_h2 {
+  margin: 9px 0;
+}
+.skill_contenedor_icon {
+  width: 160px;
+  height: 174px;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: 5px 105px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+.html {
+  background-image: url(../imagenes/skill/html.png);
+}
+.css {
+  background-image: url(../imagenes/skill/css.png);
+}
+.javascrip {
+  background-image: url(../imagenes/skill/javascrip.png);
+}
+.php {
+  background-image: url(../imagenes/skill/php.png);
+}
+.react {
+  background-image: url(../imagenes/skill/react.png);
+}
+.skills_contenedor_h2 {
+  padding: 5px 0;
+}

@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -6,80 +7,11 @@
 .container{
     display: grid;
     justify-content: center;
+    background-color: white;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
+section{
     width: 1136px;
-    background-color: aqua;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    background-color: red;
-    width: 30%;
-    padding-left: 08%;
-}
-.imgLogo{
-    width: 30px;
-    height: 30px;
-    padding: 0 5px;
-}
-nav{
-    width: 70%;
-}
-nav,ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}nav,ul,li{
-    list-style: none;
-    padding: 0 10px;
-}
-nav,li a{
-    text-decoration: none;
-}
-/*main */
-main{
-    width: 1136px;
-}
-.section1{
-    height: 368px;
     margin: 35px 0;
-    display: flex;
-}
-.section1-1{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-    overflow: hidden;
-}
-.section1-1,h1{
-    padding: 15px 0;
-}
-.section1-1, p{
-    padding: 5px 10px;
-    text-align: justify;
-}
-.imgCirculo{
-    margin: 0 10px;
-    width: 90%;
-    height: 90%;
-    border-radius: 50%;
-    border: 1px solid green;
-}
-.fleca1{
-color: black;
-}
-.vinculos1{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
-    align-items: center;
+    background-color: aqua;
+    
 }
