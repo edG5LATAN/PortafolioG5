@@ -2,7 +2,7 @@
     height: 368px;
     margin: 35px 0;
     display: flex;
-    background-color: aqua;
+    background-color: #f9faf5;
     overflow: hidden;
 }
 .section1_contenedor{
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #e4e4e4;
 
 }
 .section1_contenedor_h1{
@@ -35,7 +35,7 @@
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid grey;
 }
 .fleca1{
 color: black;
@@ -46,4 +46,52 @@ color: black;
     justify-content: space-evenly;
     margin-top: 5%;
     align-items: center;
+}
+@media (max-width: 768px){
+    .section1{
+        height: 368px;
+        margin: 20px 0;
+    
+    }
+    .section1_contenedor_vinculos1{
+        width: 90%;
+    }
+    .fleca1{
+        color: black;
+        width: 19px;
+    }
+    .imgCirculo{
+        width: 220px;
+    }
+}
+@media (max-width: 400px){
+    .section1{
+        margin: 35px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        height: auto;
+    }
+    .section1_contenedor_imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+    }
+    .section1_contenedor{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    
+    }
+    .section1_contenedor_h3{
+        text-align: center;
+    }
+    .imgCirculo{
+        width: 150px;
+        
+    }
 }

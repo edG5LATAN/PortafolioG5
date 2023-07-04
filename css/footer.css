@@ -1,5 +1,5 @@
 .foter{
-    background-color: gray;
+    background-color: #b7bac3;
     height: 600px;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
 
 }
 .footer_contenedor_contacto{
-    background-color: aquamarine;
+    background-color: #e4e4e4;
     display: grid;
     width: 48%;
     padding: 10px 10px;
@@ -43,4 +43,23 @@
     border-radius: 5px;
     display: inline-block;
     height: 35px;
+}
+@media (max-width: 768px) {
+    .foter{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_contenedor-img{
+        display: none;
+    }
+    .footer_contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_contenedor_contacto{
+        width: 85%;
+    }
 }

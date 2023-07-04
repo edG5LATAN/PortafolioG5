@@ -16,4 +16,27 @@
 }
 .acercade_firma{
     font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+}
+@media (max-width:400px) {
+    .acercade{       
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        padding: 15px 5px;
+    }
+    .acercade_titulo{
+      margin: 10px 0;
+    }
+    .acercade_contenedor{
+        width: 100%;
+        padding: 9px;
+        height: auto;
+
+    }
+    .acercade_firma{
+        margin: 15px 0;
+        font-family: 'Great Vibes', cursive;
+    }
+
 }

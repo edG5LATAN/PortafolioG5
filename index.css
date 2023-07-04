@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,11 +8,47 @@
 .container{
     display: grid;
     justify-content: center;
-    background-color: white;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: larger;
+}
+h1,h2,h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:larger
+
 }
 section{
     width: 1136px;
     margin: 35px 0;
-    background-color: aqua;
     
+}
+@media (max-width: 768px){
+    .container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    section{
+        width: 700px;
+        margin: 10px 0;       
+    }
+}
+
+@media (max-width: 400px){
+    .container, main{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        height: auto;
+        margin:5px 0;       
+    }
 }
