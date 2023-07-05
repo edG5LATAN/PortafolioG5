@@ -29,6 +29,11 @@
   text-align: center;
   border-radius: 5px;
   box-shadow: 5px 2px 5px ;
+  cursor: pointer;
+}
+.skill_contenedor_icon:hover{
+  background-color: rgb(218, 240, 250);
+  transform: scale(1.05);
 }
 /* imagenes de box */
 .css{
@@ -78,6 +83,10 @@
   .skill_contenedor_icon{
     width: 120px;
   height: 120px;
+  }
+  .skill_informacionAcademica-h3{
+    padding-left: 10px;
+    padding-bottom: 4px;
   }
 }
 

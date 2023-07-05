@@ -34,10 +34,11 @@ nav,ul{
 nav,li a{
     text-decoration: none;
     color: #f9faf5;
+    transition: 0.4s;
     
 }
-.header_a_container{
-    background-color: red;
+.header_a:hover{
+    color: rgb(38, 0, 255);
 }
 
 @media (max-width: 768px){

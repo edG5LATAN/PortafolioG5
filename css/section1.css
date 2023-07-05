@@ -20,6 +20,13 @@
 }
 .section1_contenedor_h3{
     margin: 5px 0;
+    text-align: center;
+}
+.section_a{
+  color: black;
+}
+.section_a:hover{
+  transform: scale(1.05);
 }
 .section1_contenedor_p{
     padding: 5px 15px;
