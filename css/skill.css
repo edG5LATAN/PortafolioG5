@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 .skill_contenedor_icon:hover{
-  background-color: rgb(218, 240, 250);
+  background-color: rgb(250, 252, 252);
   transform: scale(1.05);
 }
 /* imagenes de box */
@@ -50,6 +50,9 @@
 }
 .php{
   background-image: url(../imagenes/skill/php.png);
+}
+.node{
+  background-image: url(../imagenes/skill/nodeJs.png);
 }
 
 /* imagens de hobies */

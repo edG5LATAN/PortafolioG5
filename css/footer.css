@@ -67,3 +67,22 @@
         width: 85%;
     }
 }
+@media (max-width:400px) {
+    .footer{
+        overflow: hidden;
+    }
+    .footer_contenedo{
+        height: 700px;
+        overflow: hidden;
+
+    }
+    .footer_contenedor_contacto{
+        background-color: #e4e4e4;
+        display: grid;
+        height: auto;
+        padding: 10px 10px;
+    }
+    .footer_contenedor_contacto{
+        height: 30em;
+    }
+}

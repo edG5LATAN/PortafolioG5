@@ -49,7 +49,7 @@
                         <a href="https://github.com/edG5LATAN?tab=repositories" class="section_a" target="_blank">GitHub<img
                                 src="./imagenes/arrow_back_black_24dp 1.png" alt="flecha de vinculos"
                                 class="fleca1"></a>
-                        <a href="./imagenes/arrow_back_black_24dp 1.png" class="section_a" download="imagen" >Curriculo<img src="./imagenes/arrow_back_black_24dp 1.png"
+                        <a href="./document/curriculunEd.pdf" target="_blank" class="section_a">Curriculo<img src="./imagenes/arrow_back_black_24dp 1.png"
                                 alt="flecha de vinculos" class="fleca1"></a>
                     </div>
 
@@ -93,7 +93,10 @@
                             <h3 class="skill_contenedor_h3">PHP</h3>
                         </div>
                         <div class="skill_contenedor_icon react">
-                            <h3 class="skill_contenedor_h3">Reac</h3>
+                            <h3 class="skill_contenedor_h3">React</h3>
+                        </div>
+                        <div class="skill_contenedor_icon node">
+                            <h3 class="skill_contenedor_h3">NodeJS</h3>
                         </div>
                     </div>
 
@@ -188,21 +191,21 @@
                 <div class="footer_contenedor">
                     <img src="./imagenes/logoPersonal.jpeg" alt=""
                         class="footer_contenedor-img">
-                    <form class="footer_contenedor_contacto">
+                    <form action="https://formsubmit.co/castromaradiaga@gmail.com" method="POST"  class="footer_contenedor_contacto">
                         <h3 class="footer_contenedor_contacto-h">CONTACTO</h3>
                         <p class="footer_contenedor_contacto-p">
                             Aca podras contactarme por cualquier duda, trata de llenar los espacios y 
-                            con nombre direccion y motivo, ya que estamos ala orden para ayudarte si tienes
+                            con Nombre Email Asunto y Detalles del asunto, ya que estamos ala orden para ayudarte si tienes
                             alguna duda. 
                         </p>
-                        <input placeholder="nombre" required type="text" maxlength="50" class="footer_contenedor_input">
-                        <input placeholder="email" required type="email" maxlength="50" class="footer_contenedor_input">
-                        <input placeholder="asunto" required type="text" maxlength="50" class="footer_contenedor_input">
+                        <input placeholder="nombre" name="name" required type="text" maxlength="50" class="footer_contenedor_input">
+                        <input placeholder="email" name="email" required type="email" maxlength="50" class="footer_contenedor_input">
+                        <input placeholder="asunto" name="subject" required type="text" maxlength="50" class="footer_contenedor_input">
                         <label for="detalles" class="foter_detalle">Detalles</label>
-                        <textarea class="footer_contenedor_textArea" name="detalles" id="detalles" cols="30" rows="10">
+                        <textarea class="footer_contenedor_textArea" name="comments" id="detalles" cols="30" rows="10">
 
                         </textarea>
-                        <button class="footer_contenedor_boton">
+                        <button type="submit" class="footer_contenedor_boton">
                             enviar mensaje
                         </button>
                     </form>
