@@ -76,6 +76,16 @@
 .proyecto_2-a:hover{
     background-color: rgb(187, 220, 240);
 }
+@media (max-width:768px) {
+    .proyecto_1-imagen{
+        width: 40%;
+        height: 70%; 
+    }
+    .proyecto_1-informacion{
+        width: auto;
+        height: auto;
+    }
+}
 @media(max-width:400px) {
     .proyecto_contenedor{
        display: flex;
