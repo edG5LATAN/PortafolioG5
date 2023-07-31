@@ -18,7 +18,7 @@
     font-family: 'Great Vibes', cursive;
     font-size: 25px;
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
     .acercade{       
         box-sizing: border-box;
         width: 100%;

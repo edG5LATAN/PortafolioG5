@@ -54,7 +54,7 @@ color: black;
     margin-top: 5%;
     align-items: center;
 }
-@media (max-width: 768px){
+@media (max-width: 820px){
     .section1{
         height: 368px;
         margin: 20px 0;
@@ -68,10 +68,10 @@ color: black;
         width: 19px;
     }
     .imgCirculo{
-        width: 180px;
+        width: 280px;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 480px){
     .section1{
         margin: 35px 0;
         display: flex;

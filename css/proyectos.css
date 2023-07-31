@@ -76,17 +76,17 @@
 .proyecto_2-a:hover{
     background-color: rgb(187, 220, 240);
 }
-@media (max-width:768px) {
+@media (max-width:820px) {
     .proyecto_1-imagen{
         width: 40%;
         height: 70%; 
     }
     .proyecto_1-informacion{
-        width: auto;
+        width: 60%;
         height: auto;
     }
 }
-@media(max-width:400px) {
+@media(max-width:480px) {
     .proyecto_contenedor{
        display: flex;
        flex-direction: column;

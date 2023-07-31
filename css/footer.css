@@ -48,7 +48,7 @@
     padding: 5px 0 5px 5px;
     font-size:16px;
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .foter{
         height: 550px;
         display: flex;
@@ -67,7 +67,7 @@
         width: 85%;
     }
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
     .footer{
         overflow: hidden;
     }
@@ -84,5 +84,8 @@
     }
     .footer_contenedor_contacto{
         height: 30em;
+    }
+    .footer_contenedor_textArea{
+      height: 100px;
     }
 }
