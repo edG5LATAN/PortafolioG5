@@ -22,7 +22,9 @@
     margin-bottom: 10px;
     width: 100%;
     height: 500px;
-    background-color: #e4e4e4;
+    /* background-color: #e4e4e4; */
+    background-color: rgba(141, 137, 137, 0.658);
+    margin-bottom: 20px;
  
     overflow: hidden;
 }

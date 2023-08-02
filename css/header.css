@@ -34,11 +34,12 @@ nav,ul{
 nav,li a{
     text-decoration: none;
     color: #f9faf5;
-    transition: 0.4s;
+    transition: 0.3s;
     
 }
 .header_a:hover{
     color: rgb(38, 0, 255);
+    font-weight: bold;
 }
 
 @media (max-width: 820px){
