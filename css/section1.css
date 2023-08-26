@@ -2,8 +2,10 @@
     height: 368px;
     margin: 35px 0;
     display: flex;
-    background-color: #f9faf5;
+    /* background-color: #f9faf500; */
     overflow: hidden;
+    margin-top: 100px;
+    z-index: 1;
 }
 .section1_contenedor{
     display: flex;
@@ -12,8 +14,9 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #e4e4e4;
-
+    background-color: #e4e4e4a1;
+    border-radius: 15px;
+    font-weight: bold;
 }
 .section1_contenedor_h1{
     padding: 15px 0;
@@ -58,7 +61,7 @@ color: black;
     .section1{
         height: 368px;
         margin: 20px 0;
-    
+        padding-top: 40px;
     }
     .section1_contenedor_vinculos1{
         width: 90%;
@@ -78,6 +81,8 @@ color: black;
         flex-direction: column-reverse;
         overflow: hidden;
         height: auto;
+        padding-top: 30px;
+
     }
     .section1_contenedor_imagen{
         display: flex;

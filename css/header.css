@@ -2,9 +2,12 @@ header{
     display: flex;
     justify-content: space-between;
     height: 70px;
-    width: 1136px;
+    width: 100%;
     background-color:#6e77ee;
 overflow: hidden;
+position: fixed;
+top: 0;
+z-index: 10;
 }
 .logo{
     display: flex;
@@ -38,7 +41,7 @@ nav,li a{
     
 }
 .header_a:hover{
-    color: rgb(38, 0, 255);
+    color: rgb(7, 1, 36);
     font-weight: bold;
 }
 

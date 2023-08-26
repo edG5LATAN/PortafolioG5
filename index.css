@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:white;
+  background-image: url('./imagenes/portafolio/fondoPortafolio.jpg');
 }
 .container{
     display: grid;
@@ -16,11 +16,17 @@ p{
     font-family: 'Dosis', sans-serif;
     font-size: larger;
 }
-h1,h2,h3,label{
+
+h2,h3,label{
     font-family: 'Fira Sans', sans-serif;
     font-size:larger
 
 }
+h1{
+    font-family: 'Fira Sans', sans-serif;
+   font-size: 28px; 
+}
+
 section{
     width: 1136px;
     margin: 35px 0;

@@ -1,9 +1,10 @@
 .foter{
-    background-color: #b7bac3;
+    background-color: #b7bac386;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 .footer_contenedor{
     display: flex;
@@ -33,6 +34,7 @@
         resize: none;
         padding: 9px;
         font-size: large;
+
 }
 .footer_contenedor_boton{
     display: block;

@@ -1,11 +1,12 @@
 .skills_contendor3{
     height: 581px;
     width: 100%;
-    background-color:#e4e4e4;
+    background-color:#e4e4e470;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
    
 }
 .skill_contenedor-informacionAcademica{
