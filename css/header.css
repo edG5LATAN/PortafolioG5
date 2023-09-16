@@ -101,4 +101,7 @@ nav,li a{
         height: 30px;
         padding: 0 2px;
     }
+    .ocultar{
+    display: none;
+    }
 }
