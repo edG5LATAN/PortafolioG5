@@ -32,6 +32,13 @@ section{
     margin: 35px 0;
     
 }
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 @media (max-width: 820px){
     .container{
         display: grid;

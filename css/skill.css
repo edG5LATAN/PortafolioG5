@@ -1,6 +1,6 @@
 .skills{
   height: auto;
-  width: 100%;
+  width: 85%;
   background-color: #fefefe5d;
   font-weight: bold;
   border-radius: 15px;  
@@ -23,9 +23,10 @@
   gap: 1em;
 }
 .skill_contenedor_icon{
-  background-position: center;
+  background-position:center;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 180px;
+  width: 185px;
   height: 180px;
   display: flex;
   justify-content: center;
@@ -35,7 +36,6 @@
   box-shadow: 5px 2px 5px ;
   cursor: pointer;
   z-index: 1;
-
 }
 .skill_contenedor_icon:hover{
   background-color: rgb(250, 252, 252);
@@ -43,52 +43,66 @@
 }
 /* imagenes de box */
 .css{
-  background-image: url(../imagenes/skill/css.png);
+  background-image: url(../imagenes/skill/css.jpeg);
 }
 .html{
-  background-image: url(../imagenes/skill/html.png);
+  background-image: url(../imagenes/skill/html.jpeg);
 }
 .react{
-  background-image: url(../imagenes/skill/react.png);
+  background-image: url(../imagenes/skill/jsx.jpeg);
 }
 .javascrip{
-  background-image: url(../imagenes/skill/javascrip.png);
+  background-image: url(../imagenes/skill/js.jpeg);
 }
 .php{
-  background-image: url(../imagenes/skill/php.png);
+  background-image: url(../imagenes/skill/java.jpeg);
 }
 .node{
-  background-image: url(../imagenes/skill/nodeJs.png);
+  background-image: url(../imagenes/skill/nodjs.jpeg);
 }
-
+.git{
+  background-image: url(../imagenes/skill/git.jpeg);
+}
+.springboot{
+  background-image: url(../imagenes/skill/springBoot.png);
+}
+.nodejsExpress{
+  background-image: url(../imagenes/skill/nodejsExpress.png);
+}
+.figma{
+  background-image: url(../imagenes/skill/figma.jpg);
+}
 /* imagens de hobies */
 .aprender{
   background-color: #fefefe;
-  background-size: 50px 50px;
+  background-size: contain;
   background-image: url(../imagenes/hobbies/aprender.png);
 }
 .baloncesto{
-  background-size: 50px 50px;
+  background-size: contain;
   background-color: #fefefe;
   background-image: url(../imagenes/hobbies/baloncesto.jpg);
 }
 .videojuegos{
-  background-size: 50px 50px;
+  background-size: contain;
   background-color: #fefefe;
   background-image: url(../imagenes/hobbies/videojuegos.jpg);
 }
-.comida{
-  background-size: 50px 50px;
+.manga{
+  background-size: contain;
   background-color: #fefefe;
-  background-image: url(../imagenes/hobbies/comida.png);
+  background-image: url(../imagenes/hobbies/manga.jpg);
 }
-.viajar{
-  background-size: 50px 50px;
+.reparar{
+  background-size: contain;
   background-color: #fefefe;
-  background-image: url(../imagenes/hobbies/viajar.jpg);
+  background-image: url(../imagenes/hobbies/reparar.jpg);
 }
 
 @media (max-width:820px) {
+  .skills{
+    width: 100%;
+  }
   .skill_contenedor_icon{
     width: 120px;
   height: 120px;
@@ -102,7 +116,7 @@
 
 @media (max-width:480px) {
   .skill_contenedor_icon{
-    width: 120px;
-  height: 120px;
+    width: 140px;
+  height: 160px;
   }
 }
