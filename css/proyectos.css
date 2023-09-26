@@ -91,6 +91,9 @@
     }
 }
 @media(max-width:480px) {
+    .proyecto_1{
+        height: auto;
+    }
     .proyecto_contenedor{
        display: flex;
        flex-direction: column;
