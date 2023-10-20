@@ -1,11 +1,11 @@
 .skills{
   height: auto;
   width: 85%;
-  background-color: #fefefe5d;
+  background-color: rgb(234, 242, 253);
   font-weight: bold;
   border-radius: 15px;  
   margin-top: 120px;
-
+padding: 10px 0;
 }
 .skills_contendor1{
   padding: 5px 0;

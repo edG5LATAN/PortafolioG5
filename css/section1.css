@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #e4e4e4a1;
+    background-color: rgb(234, 242, 253);
     border-radius: 15px;
     font-weight: bold;
 }
