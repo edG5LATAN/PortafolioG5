@@ -3,6 +3,8 @@
 
 -Creacion de mi primer portafolio web con algunos de mis proyectos de inicio este proyecto se creo todo en HTML CSS y JS.
 
+![Logo](https://i.pinimg.com/originals/a5/c1/5e/a5c15e00e1a4d8adece1ad6e26f5a582.png)
+
 
 ## Documentation
 
